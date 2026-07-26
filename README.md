@@ -2,6 +2,10 @@
 
 A small Retrieval-Augmented Generation (RAG) app that lets you ask questions about your own documents (PDFs/text files) and get answers grounded in their content — built from scratch, component by component, to understand exactly how RAG works under the hood rather than just using a framework.
 
+## Demo
+
+![RAG chat in action](chat_demo.png)
+
 This project includes **two implementations of the same pipeline**:
 1. **A hand-built version** — every stage (chunking, embeddings, vector storage, retrieval, prompt construction, generation) written from raw Python, with no orchestration framework.
 2. **A LangChain version** — the same pipeline rebuilt using LangChain's abstractions, for direct comparison against the hand-built version.
