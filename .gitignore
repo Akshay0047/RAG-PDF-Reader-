@@ -3,3 +3,4 @@ chroma_db/
 .env
 __pycache__/
 *.pyc
+chroma_db_langchain/
